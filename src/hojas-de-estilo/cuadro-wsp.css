@@ -1,0 +1,121 @@
+#popwsp{
+    display: none;
+
+}
+/* cuadro wsp */
+/* @keyframes flow{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+} */
+
+#cuadroWsp{
+    width: 280px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    right: 34px;
+    bottom: 94px;
+    background-color: white;
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+    user-select: none;
+    cursor: pointer;
+    /* animation: flow 0.2s 1; */
+}
+
+.top-cuadrowsp{
+    width: 100%; 
+    height: 50px;
+    padding-left: 15px;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    background-color: #717170;
+    color: white;
+}
+.mid-cuadrowsp{
+    width: 100%;
+    height: 100px;  
+    padding: 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mid-cuadrowsp-fit{
+    /* border: 1px solid black; */
+    color: #717170;
+    width: 100%;
+    height: 20px;
+    padding-left: 3px;
+    font-size: 0.67rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.mid-cuadrowsp-fat{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #2db742;
+    background-color: rgb(247, 251, 255);
+    border-radius: 2px;
+    text-decoration: none;
+}
+.mid-logowsp{
+    width: 40px;
+    height: 40px;
+    color: #2db742;
+    /* border: 1px solid black; */
+
+}
+.mid-namewsp{
+    width: 150px;
+    height: 50px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: black;
+   
+    /* border: 1px solid black; */
+}
+.mid-logowsp2{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    color: pink;
+    /* border: 1px solid black; */
+
+}
+
+
+
+/* boton de wsp */
+#btn-wsp-x{
+    border-radius: 50px;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 15px;
+    background-color: #717170;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo-wsp-x{
+    font-size: 2.2rem; 
+   
+}

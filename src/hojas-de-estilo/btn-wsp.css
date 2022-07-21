@@ -1,0 +1,36 @@
+#contenedor-btn-wsp{
+    display: block;
+
+}
+
+#btn-wsp{
+    border-radius: 50px;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 55px;
+    bottom: 30px;
+    right: 15px;
+    background-color: #717170;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+   
+    
+}
+
+.logo-wsp{
+    font-size: 2rem; 
+}
+
+#btn-wsp:hover{
+    background-color: #4fef6c;
+    color: white;
+  
+}
+
+/* boton "x"  */
+

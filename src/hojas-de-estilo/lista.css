@@ -1,0 +1,27 @@
+.contenedor-aside-lista{
+    width: 200px;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contenedor-lista{
+    margin: 5px 0;
+}
+
+.aside-lista{
+    margin: 15px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 5px;
+    font-size: 1.2rem;
+}

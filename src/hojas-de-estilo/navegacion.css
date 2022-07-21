@@ -1,0 +1,68 @@
+.contenedor-navegacion{
+   color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    padding: 2px 0;
+    align-items: center;
+    background: #970664;
+	/* background: -moz-linear-gradient(top,#bc0428 0%, #970664 100%);
+	background: -webkit-linear-gradient(#bc0428 0%, #970664 100%);
+	background: -o-linear-gradient(#bc0428 0%, #970664 100%); */
+	background: linear-gradient(#ce0e1c 0%,#bc0428 50%, #970664 98%, #54066b 100% );
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.redeSociales{
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1em;
+}
+
+.logohcc{
+    border: 1px solid black;
+    width: 25%;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+}
+
+.instagram{
+
+    border-radius: 14px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.facebook{
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+}   
+
+.barraMenu{
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: white;
+    font-size: 2em;
+    width: 10%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: visible;
+}   
